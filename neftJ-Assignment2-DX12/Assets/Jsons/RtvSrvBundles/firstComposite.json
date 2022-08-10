@@ -1,0 +1,14 @@
+{
+	"texDesc": {
+		"dimension": 3,
+		"depth": 1,
+		"format": 28,
+		"mipLevels": 0,
+		"samplerCount": 1
+	},
+	"rtvDesc": {
+		"viewDimension": 4,
+		"numElements": 1
+	},
+	"isScreenSize" : true
+}

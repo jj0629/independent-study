@@ -1,0 +1,32 @@
+{
+	"rsName" : "pbrRS",
+	"psoName" : "pbrPSO",
+	"color" : [
+		1.0, 1.0, 1.0
+	],
+	"scale" : [
+		1.0, 1.0
+	],
+	"offset" : [
+		0.0, 0.0
+	],
+	"textureCount" : 4,
+	"textures" : [
+		{
+			"name" : "scratched_albedo",
+			"slot" : 0
+		},
+		{
+			"name" : "scratched_normals",
+			"slot" : 1
+		},
+		{
+			"name" : "scratched_roughness",
+			"slot" : 2
+		},
+		{
+			"name" : "scratched_metal",
+			"slot" : 3
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+	"rsName" : "pbrRS",
+	"psoName" : "pbrPSO",
+	"color" : [
+		1.0, 1.0, 1.0
+	],
+	"scale" : [
+		1.0, 1.0
+	],
+	"offset" : [
+		0.0, 0.0
+	],
+	"textureCount" : 4,
+	"textures" : [
+		{
+			"name" : "wood_albedo",
+			"slot" : 0
+		},
+		{
+			"name" : "wood_normals",
+			"slot" : 1
+		},
+		{
+			"name" : "wood_roughness",
+			"slot" : 2
+		},
+		{
+			"name" : "wood_metal",
+			"slot" : 3
+		}
+	]
+}

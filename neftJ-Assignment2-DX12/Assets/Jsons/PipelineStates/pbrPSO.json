@@ -1,0 +1,72 @@
+{
+	"inputElements": [
+		{
+			"format": 6,
+			"semanticName": "POSITION",
+			"index": 0
+		},
+		{
+			"format": 16,
+			"semanticName": "TEXCOORD",
+			"index": 0
+		},
+		{
+			"format": 6,
+			"semanticName": "NORMAL",
+			"index": 0
+		},
+		{
+			"format": 6,
+			"semanticName": "TANGENT",
+			"index": 0
+		}
+	],
+	"rootSigName" : "pbrRS",
+	"vsName" : "VertexShader",
+	"psName" : "pbrPS",
+	"renderTargetFormats" : [
+		28,
+		28,
+		28,
+		41
+	],
+	"blendStates" : [
+		{
+			"srcBlend" : 2,
+			"destBlend" : 1,
+			"blendOp" : 1,
+			"writeMask" : 15
+		},
+		{
+			"srcBlend" : 2,
+			"destBlend" : 1,
+			"blendOp" : 1,
+			"writeMask" : 15
+		},
+		{
+			"srcBlend" : 2,
+			"destBlend" : 1,
+			"blendOp" : 1,
+			"writeMask" : 15
+		},
+		{
+			"srcBlend" : 2,
+			"destBlend" : 1,
+			"blendOp" : 1,
+			"writeMask" : 15
+		}
+	],
+	"dsvFormat" : 45,
+	"samplerCount" : 1,
+	"samplerQuality" : 0,
+	"rasterizerState" : {
+		"fill" : 3,
+		"cull" : 3,
+		"depthClip" : true
+	},
+	"depthStencil" : {
+		"depthEnable" : true,
+		"depthFunc" : 2,
+		"writeMask" : 1
+	}
+}

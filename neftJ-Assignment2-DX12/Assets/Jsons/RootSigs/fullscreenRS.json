@@ -1,0 +1,20 @@
+{
+	"descriptorRanges": [
+		{
+			"type": 0,
+			"descriptorNum": 1,
+			"baseRegister": 0,
+			"registerSpace": 0
+		}
+	],
+	"rootParams": [
+		{
+			"paramType": 0,
+			"shaderVisibility": 5,
+			"numDescriptors": 1
+		}
+	],
+	"samplerNames": [
+		"clampSampler"
+	]
+}

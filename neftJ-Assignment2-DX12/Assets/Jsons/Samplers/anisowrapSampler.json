@@ -1,0 +1,8 @@
+{
+	"addressU" : 1,
+	"addressV" : 1,
+	"addressW" : 1,
+	"filter": 85,
+	"anisotropy": 16,
+	"shaderVisibility": 5
+}

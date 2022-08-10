@@ -1,0 +1,41 @@
+{
+	"inputElements": [
+		{
+			"format": 2,
+			"semanticName": "SV_POSITION",
+			"index": 0
+		},
+		{
+			"format": 16,
+			"semanticName": "TEXCOORD",
+			"index": 0
+		}
+	],
+	"rootSigName" : "iblSpecularConvolutionRS",
+	"vsName" : "FullscreenVS",
+	"psName" : "IBLSpecularConvolutionPS",
+	"renderTargetFormats" : [
+		28
+	],
+	"blendStates" : [
+		{
+			"srcBlend" : 2,
+			"destBlend" : 1,
+			"blendOp" : 1,
+			"writeMask" : 15
+		}
+	],
+	"dsvFormat" : 45,
+	"samplerCount" : 1,
+	"samplerQuality" : 0,
+	"rasterizerState" : {
+		"fill" : 3,
+		"cull" : 3,
+		"depthClip" : true
+	},
+	"depthStencil" : {
+		"depthEnable" : true,
+		"depthFunc" : 2,
+		"writeMask" : 1
+	}
+}

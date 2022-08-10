@@ -1,0 +1,54 @@
+{
+	"descriptorRanges": [
+		{
+			"type": 2,
+			"descriptorNum": 1,
+			"baseRegister": 0,
+			"registerSpace": 0
+		},
+		{
+			"type": 2,
+			"descriptorNum": 1,
+			"baseRegister": 1,
+			"registerSpace": 0
+		},
+		{
+			"type": 2,
+			"descriptorNum": 1,
+			"baseRegister": 2,
+			"registerSpace": 0
+		},
+		{
+			"type": 0,
+			"descriptorNum": 4,
+			"baseRegister": 0,
+			"registerSpace": 0
+		}
+	],
+	"rootParams": [
+		{
+			"paramType": 0,
+			"shaderVisibility": 1,
+			"numDescriptors": 1
+		},
+		{
+			"paramType": 0,
+			"shaderVisibility": 5,
+			"numDescriptors": 1
+		},
+		{
+			"paramType": 0,
+			"shaderVisibility": 5,
+			"numDescriptors": 1
+		},
+		{
+			"paramType": 0,
+			"shaderVisibility": 5,
+			"numDescriptors": 1
+		}
+	],
+	"samplerNames": [
+		"anisowrapSampler",
+		"clampSampler"
+	]
+}
